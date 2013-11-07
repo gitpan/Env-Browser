@@ -28,9 +28,10 @@ no_index:
     - t
 requires:
   Readonly: 0
+  perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Env-Browser
   homepage: https://github.com/tupinek/Env-Browser
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Env-Browser
-version: 0.03
+version: 0.04

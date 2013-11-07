@@ -11,6 +11,7 @@ author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Env-Browser';
 requires 'Readonly' => 0;
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Env-Browser';
 resources 'homepage' => 'https://github.com/tupinek/Env-Browser';
@@ -23,7 +24,7 @@ test_requires 'Test::Pod' => 0;
 test_requires 'Test::Pod::Coverage' => 0;
 test_requires 'Test::Output' => 1.02;
 tests_recursive;
-version '0.03';
+version '0.04';
 
 # Run.
 WriteAll();
